@@ -1,0 +1,26 @@
+1. updated package.json to accept any version of canva
+
+2. npm install sha1
+   or
+   npm install canvas@2.11.0 then npm install
+
+3. node index.js
+
+4. check images in build folder
+
+5. move build/json/_metadata.json
+
+6. to deploy local hardhat blockchain: https://blog.thirdweb.com/guides/how-to-deploy-contracts-to-local-blockchain-using-thirdweb/
+
+7. change defaultNetwork: "hardhat"
+
+8. make sure to run npx hardhat node --network hardhat in the local_node_hardhat folder
+
+9. transfer funds to your personal metamask account using send function in Metamask
+
+10. reset nonce in metamask if needed
+
+11. deploy contract of choice in thirdweb web app
+
+
+
